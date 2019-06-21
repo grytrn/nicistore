@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "nicistore",
   "version": "1.0.0",
   "description": "NICI Online Storefront",
@@ -9,6 +9,7 @@
   },
   "main": "index.js",
   "scripts": {
+    "start": "node index.js"
     "build": "rm -rf static/dist && webpack --stats --progress --config ./webpack/prod.config.js",
     "dev": "NODE_ENV=development DEBUG=nicistore node index",
     "prod": "NODE_ENV=production DEBUG=nicistore node index"
