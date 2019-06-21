@@ -9,7 +9,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "npm run dev",
     "build": "rm -rf static/dist && webpack --stats --progress --config ./webpack/prod.config.js",
     "dev": "NODE_ENV=development DEBUG=nicistore node index",
     "prod": "NODE_ENV=production DEBUG=nicistore node index"
